@@ -13,10 +13,11 @@
 "modules-left": [
 	"custom/menu",
 	"custom/separator#blank_2",
-	"hyprland/workspaces",
+	"hyprland/workspaces#kanji",
 	"custom/separator#blank_2",
 	"mpris",
-	"tray"
+	"tray",
+	"battery"
 ],
 
 "modules-center": [
@@ -24,7 +25,7 @@
 	"custom/separator#blank",
 	"clock#3",
 	"custom/separator#blank",
-	"custom/swaync"
+	"custom/swaync",
 ],
 		
 "modules-right": [

@@ -8,6 +8,8 @@
 	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
 	font-size: 97%;
 	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+	
+	
 }
 
 @import "../waybar/style/catppuccin-themes/mocha.css";
@@ -17,6 +19,7 @@ window#waybar {
   	transition-duration: 0.5s;
   	background: transparent;
   	border-radius: 10px;
+	  background-image: url("cobwebs.png");
 }
 
 window#waybar.hidden {
@@ -77,7 +80,7 @@ window#waybar.empty #window {
 /* This section can be use if you want to separate waybar modules */
 .modules-left, .modules-center, .modules-right {
 	background: @theme_base_color; 
- 	border: 0.5px solid @overlay0;
+ 	border: 0.5px solid red;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 4px;
@@ -87,7 +90,7 @@ window#waybar.empty #window {
 } 
 
 .modules-left, .modules-right {
-  	border: 1px solid @blue;
+  	border: 1px solid red;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 4px;
