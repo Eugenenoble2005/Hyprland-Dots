@@ -25,11 +25,12 @@
 	"custom/swaync"
 	],
   
-"modules-center": ["hyprland/workspaces#kanji"], 
+"modules-center": ["wlr/taskbar"], 
 	
 "modules-right": [
 	"pulseaudio#1",
-	"backlight#2", 
+	"backlight#2",
+	"memory", 
 	"battery"],
    
 }

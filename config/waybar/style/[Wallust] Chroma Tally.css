@@ -13,8 +13,8 @@ font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 window#waybar {
-    background: rgba (0, 0, 0, 0.5);
     border-radius: 12px;
+    
 	border-bottom: 2px;
     border-style: solid;
 	border-color: @color12; 
@@ -22,9 +22,9 @@ window#waybar {
 
 window#waybar.empty,
 window#waybar.empty #window {
-    background-color: transparent;
     padding: 0px;
     border: 0px;
+	background-color:red;
 }
 
 #workspaces {
