@@ -1,6 +1,6 @@
 (defwindow spiderverse
            :monitor 0
-           :geometry (geometry :anchor "top left"
+           :geometry (geometry :anchor "bottom left"
                                :x "-150px"
                                
                                )
@@ -8,4 +8,15 @@
            :reserve (struts :distance "40px" :side "top")
            :wm-ignore false
             (image :path "/home/noble/Pictures/spiderverselogo-dense.gif")
+      )
+      (defwindow cobwebstatic
+           :monitor 0
+           :geometry (geometry :anchor "top right"
+                               :x "-210px"
+                        
+                               )
+           :stacking "bg"
+           :reserve (struts :distance "40px" :side "top")
+           :wm-ignore false
+            (image :path "/home/noble/Pictures/spiders.avif")
       )
