@@ -33,8 +33,8 @@
   :geometry (geometry :anchor "top left" :width "50%" :height "200px" :y "30px")
   :stacking "bg"
   (box :orientation "v" 
-   (label :text date)
-    (label :text time)
+   (label :text date :class "deathnotedatelabel")
+    (label :text time :class "deathnotetime")
   )
  )
    

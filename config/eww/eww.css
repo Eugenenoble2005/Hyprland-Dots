@@ -7,4 +7,10 @@
   color:white;
   font-weight: bold;
 }
-
+.deathnotetime{
+  color:#5F515D
+}
+.deathnotedatelabel{
+   text-shadow: 0 0 15px #fff;
+   
+}
