@@ -20,15 +20,14 @@
 }
 
 window#waybar {
-	background-image: url("cobwebs.png");
+    background: @bar-bg;
 }
 
 window#waybar.empty,
 window#waybar.empty #window {
-
+    background-color: transparent;
     padding: 0px;
     border: 0px;
-
 }
 
 tooltip {

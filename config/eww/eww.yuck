@@ -20,3 +20,23 @@
            :wm-ignore false
             (image :path "/home/noble/Pictures/spiders.avif")
       )
+
+(defpoll time :interval "1s"
+        
+  `date +%H:%M:%S`)
+
+(defpoll date :interval "1s" 
+  `date +"%A, %U %B"`
+)
+(defwindow deathnotedate
+  :monitor 0
+  :geometry (geometry :anchor "top left" :width "50%" :height "200px" :y "30px")
+  :stacking "bg"
+  (box :orientation "v" 
+   (label :text date)
+    (label :text time)
+  )
+ )
+   
+
+   
