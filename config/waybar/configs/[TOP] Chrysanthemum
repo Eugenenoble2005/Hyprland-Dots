@@ -25,7 +25,7 @@
 	"custom/swaync"
 	],
   
-"modules-center": ["wlr/taskbar"], 
+"modules-center": ["hyprland/workspaces#kanji"], 
 	
 "modules-right": [
 	"pulseaudio#1",
