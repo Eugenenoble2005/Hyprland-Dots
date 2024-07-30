@@ -26,8 +26,11 @@
   `date +%H:%M:%S`)
 
 (defpoll date :interval "1s" 
-  `date +"%A, %U %B"`
+  `date +"%A, %d %B"`
 )
+(defpoll kendricklyrics :interval "1m"
+  `node ~/Documents/artist-lyrics/main.js --artist='Kendrick Lamar'`
+ )
 (defwindow deathnotedate
   :monitor 0
   :geometry (geometry :anchor "top left" :width "50%" :height "200px" :y "30px")
@@ -35,6 +38,8 @@
   (box :orientation "v" 
    (label :text date :class "deathnotedatelabel")
     (label :text time :class "deathnotetime")
+   
+
   )
  )
    
