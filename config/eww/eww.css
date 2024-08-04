@@ -1,20 +1,18 @@
 
 
 .deathnotedate{
-  font-size: 120px;
-  font-family: "Death Note";
-  background:transparent;
-  color:white;
+  font-size: 85px;
+  font-family: "budmo jigglish";
+   color:purple;
+   background: transparent;
   font-weight: bold;
 }
-.deathnotetime{
-  color:#5F515D
-}
-.deathnotedatelabel{
-   text-shadow: 0 0 15px #fff;
-   
-}
+
 .kendricklyric{
   font-size: 50px;
   margin-bottom: 30px; 
+}
+.deathbox{
+   background:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+
 }

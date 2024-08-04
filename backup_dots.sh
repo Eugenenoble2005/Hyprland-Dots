@@ -4,8 +4,9 @@ cp -rv ~/.config/hypr ~/hyprland-dots/config/
 cp -rv ~/.config/waybar ~/hyprland-dots/config/
 #wallpapers and pictures
 #clean up first
-rm -rf ~/hyprland-dots/config/Pictures/*
 cp -rv ~/Pictures/* ~/hyprland-dots/config/Pictures
+
+cp -rv ~/.fonts/* ~/hyprland-dots/config/fonts
 
 #eww
 cp -rv ~/.config/eww ~/hyprland-dots/config/
