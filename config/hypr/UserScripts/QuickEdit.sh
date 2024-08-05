@@ -2,14 +2,14 @@
 # Rofi menu for Quick Edit / View of Settings (SUPER E)
 
 # define your preferred text editor and terminal to use
-editor=vim
+editor=nvim
 tty=kitty
 
 configs="$HOME/.config/hypr/configs"
 UserConfigs="$HOME/.config/hypr/UserConfigs"
 
 menu(){
-  printf "1. edit Env-variables\n"
+  printf "1. edit Hyprland.conf\n"
   printf "2. edit Window-Rules\n"
   printf "3. edit Startup_Apps\n"
   printf "4. edit User-Keybinds\n"
@@ -25,7 +25,7 @@ main() {
     choice=$(menu | rofi -i -dmenu -config ~/.config/rofi/config-compact.rasi | cut -d. -f1)
     case $choice in
         1)
-            $tty $editor "$UserConfigs/ENVariables.conf"
+            $tty $editor "$HOME/.config/hypr/hyprland.conf"
             ;;
         2)
             $tty $editor "$UserConfigs/WindowRules.conf"
