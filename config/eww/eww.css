@@ -1,7 +1,7 @@
 
 
 .deathnotedate{
-  font-size: 85px;
+  font-size: 75px;
   font-family: "budmo jigglish";
    color:purple;
    background: transparent;
@@ -13,6 +13,6 @@
   margin-bottom: 30px; 
 }
 .deathbox{
-   background:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+   
 
 }
