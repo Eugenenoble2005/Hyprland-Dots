@@ -21,14 +21,14 @@
 //"margin-right": 0,
 	
 "modules-left": [
-	"hyprland/workspaces#cam",
+  "hyprland/window",
 	"custom/separator#line",
 	"mpris",
 	"custom/swaync",
 	"tray", 
 	"wlr/taskbar"],
 
-"modules-center": ["hyprland/window"], 
+"modules-center": ["hyprland/workspaces#kanji"], 
 	
 "modules-right": [
 	"custom/backlight",
