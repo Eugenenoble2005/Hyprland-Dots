@@ -14,7 +14,7 @@
 }
 
 window#waybar {
-	background: transparent;
+	background: none;
 	border-radius: 50px;
 	color: whitesmoke;
 }
@@ -27,7 +27,7 @@ window#waybar.empty,
 window#waybar.empty #window {
 	padding: 0px;
 	border: 0px;
-	background-color: transparent;
+	background: none;
 }
 
 
@@ -44,7 +44,7 @@ tooltip {
 .modules-right {
 	border: 5px solid #19141b;
 	border-radius: 50px 50px 50px 50px;
-	background-color: purple;
+	background-color: rgb(128,0,128);
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 4px;

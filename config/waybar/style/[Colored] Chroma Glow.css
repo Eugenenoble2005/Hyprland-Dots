@@ -11,7 +11,7 @@
 }
 
 window#waybar {
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.1);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -26,7 +26,7 @@ window#waybar.empty,
 window#waybar.empty #window {
     padding: 0px;
     border: 0px;
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.1);
 }
 
 tooltip {

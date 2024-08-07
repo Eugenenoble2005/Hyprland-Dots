@@ -26,11 +26,12 @@
 	"mpris",
 	"custom/swaync",
 	"tray", 
-	"wlr/taskbar"],
+	],
 
 "modules-center": ["hyprland/workspaces#kanji"], 
 	
 "modules-right": [
+  "custom/playerctl",
 	"custom/backlight",
 	"backlight/slider",
 	"custom/speaker",
