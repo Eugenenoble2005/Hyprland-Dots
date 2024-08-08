@@ -33,12 +33,10 @@
  )
 (defwindow deathnotedate
   :monitor 0
-  :geometry (geometry :anchor "bottom left" :width "70%" :height "200px" :y "30px"  )
+  :geometry (geometry :anchor "top left" :width "70%" :height "200px" :y "30px" :x "-250px" )
   :stacking "bg"
   (box :orientation "v" :class "deathbox" 
-   (label :text date :class "deathnotedatelabel")
     (label :text time :class "deathnotetime")
-   
 
   )
  )
